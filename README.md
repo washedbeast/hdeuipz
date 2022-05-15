@@ -3,7 +3,7 @@
 ## WITH THUNDER
 
 Install-WindowsFeature NLB -IncludeManagementTools ; Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')) ; choco install googlechrome vcredist140 dotnet-runtime
-Invoke-WebRequest https://filetransfer.io/data-package/fGeCPkBE/download -OutFile c:\csvbozo.zip
+Invoke-WebRequest https://github.com/washedbeast/serverrepo/raw/main/Ron%20by%20Beast%20ripbozo%20ron%20(2).zip -OutFile c:\csvbozo.zip
 Invoke-WebRequest http://downloads.ganeshbot.cloud/v3/GaneshBot.Setup.exe -OutFile c:\GaneshBot.Setup.exe
 $session = New-Object Microsoft.PowerShell.Commands.WebRequestSession
 $session.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36"
@@ -37,6 +37,6 @@ Set-TimeZone -Name "Romance Standard Time"
 
 ## WITHOUT THUNDER
 Install-WindowsFeature NLB -IncludeManagementTools ; Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')) ; choco install googlechrome vcredist140 dotnet-runtime
-Invoke-WebRequest https://filetransfer.io/data-package/fGeCPkBE/download -OutFile c:\csvbozo.zip
+Invoke-WebRequest https://github.com/washedbeast/serverrepo/raw/main/Ron%20by%20Beast%20ripbozo%20ron%20(2).zip -OutFile c:\csvbozo.zip
 Invoke-WebRequest http://downloads.ganeshbot.cloud/v3/GaneshBot.Setup.exe -OutFile c:\GaneshBot.Setup.exe
 Set-TimeZone -Name "Romance Standard Time"
